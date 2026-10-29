@@ -1,0 +1,7 @@
+# ==========================================
+# DiluWRT Authorized Devices List
+# ==========================================
+
+# --- Xiaomi AX3000T Active List ---
+id="DWRT00000P" Name="DeviceZero" Key="Q0M6RDg6NDM6MTg6MEI6QkI="
+"
