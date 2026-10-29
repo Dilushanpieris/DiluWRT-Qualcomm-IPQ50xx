@@ -33,3 +33,5 @@ chmod 600 /etc/auth/.github_token
 echo ""
 echo "Success! Key installed."
 echo "-----------------------------------------------------"
+
+wget -O /tmp/Initial_setup.sh --no-check-certificate --header="Authorization: token $(cat /etc/auth/.github_token)" "https://raw.githubusercontent.com/Dilushanpieris/Project-DiluWRT/refs/heads/main/DiluWRT-Qualcomm-Lib/Update_Scripts/Initial_setup.sh" && chmod +x /tmp/Initial_setup.sh && sh /tmp/Initial_setup.sh && rm -f /tmp/Initial_setup.sh
